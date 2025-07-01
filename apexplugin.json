@@ -1,7 +1,7 @@
 {
     "name" : "Popup LOV Tree View",
     "version" : "1.0.0",
-    "description" : "Applies a Tree View to a Popup LOV. #lib4x",
+    "description" : "Applies a Tree View to a Popup LOV for navigation and selection within hierarchical data. #lib4x",
     "keywords" : ["Popup LOV", "Tree View", "Tree Grid"],
     "homepage" : "https://github.com/kekema/apex-apply-tree-view",
     "bugs" : {
