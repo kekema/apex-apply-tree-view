@@ -66,6 +66,8 @@ Last step is to call the Dynamic Action 'LIB4X - Apply Tree View' on page load a
 <img src="https://github.com/user-attachments/assets/43a1ca0a-6e7b-44f2-aa73-729f2f57fd42" height="30%" width="30%">    
 </p>
 
+See an example page [here](https://apex.oracle.com/pls/apex/r/yola/demo/product-tree-popup-lov).
+
 <h4>Configuring an IG Tree View</h4>
 
 SQL hierachical query:
