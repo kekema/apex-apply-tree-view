@@ -1,0 +1,35 @@
+{
+    "name" : "Popup LOV Tree View",
+    "version" : "1.0.0",
+    "description" : "Applies a Tree View to a Popup LOV. #lib4x",
+    "keywords" : ["Popup LOV", "Tree View", "Tree Grid"],
+    "homepage" : "https://github.com/kekema/apex-apply-tree-view",
+    "bugs" : {
+      "url" : "https://github.com/kekema/apex-apply-tree-view/issues",
+      "email" : "karel0008@gmail.com"
+    },
+    "license" : "MIT",
+    "commercial" : "No",
+    "author" : {
+      "name" : "Karel Ekema",
+      "email" : "karel0008@gmail.com",
+      "url" : "https://karelekema.hashnode.dev",
+      "twitter": "@KarelEkema"
+    },
+    "repository" : {
+      "type" : "git",
+      "url" : "https://github.com/kekema/apex-apply-tree-view"
+    },
+    "oracle" : {
+      "versions": ["19.0.0.0"],	
+      "apex" : {
+        "versions" : ["24.2"],
+        "plugin" : {
+          "internalName" : "LIB4X.AXT.APPLYTREEVIEW",
+          "type" : "dynamic action",
+	  "demo" : "https://apex.oracle.com/pls/apex/r/yola/demo/product-tree-popup-lov?",
+	  "previewImage" : "https://github.com/kekema/apex-apply-tree-view/blob/main/apply-tree-view.jpg?raw=true"
+        }
+      }
+    }
+}
