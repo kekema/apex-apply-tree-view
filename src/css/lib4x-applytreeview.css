@@ -1,0 +1,42 @@
+/* Starting point for below CSS taken from the APEX Interactive Grid Treegrid Enhancement APEX Dynamic Action Plug-in
+ * by Richárd Báldogi 
+ * https://github.com/baldogiRichard/apex-treegrid-enhancement-for-ig
+ */
+.lib4x-treegrid-expander {
+	display: inline-block;
+	margin-left: -10px;
+	position: relative;
+	width: 24px;
+    height: 20px;
+    vertical-align: middle;
+    pointer-events: auto;
+}
+.lib4x-treegrid-expander::after {
+	border: 6px solid transparent;
+	content: ' ';
+	display: block;
+	height: 0;
+	left: 50%;
+	margin-left: -6px;
+	margin-top: -6px;
+	position: absolute;
+	top: 50%;
+	width: 0;
+}
+.lib4x-treegrid-expander-expanded,
+.lib4x-treegrid-expander-collapsed {
+	cursor: pointer;
+}
+.lib4x-treegrid-expander-expanded::after {
+	border-top-color: #ccc;
+}
+.lib4x-treegrid-expander-collapsed::after {
+	border-left-color: #ccc;
+}
+.lib4x-toggle-all {
+  margin-inline-start: var(--a-button-gap-x, 8px);
+}
+/* prevent double horizontal scrollbars */
+.a-PopupLOV-dialog.lib4x-has-treegrid {
+    overflow-x: hidden!important;
+}
