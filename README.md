@@ -28,7 +28,7 @@ In the column mapping, have the 'Default Sort' as 'Use Order By from Query':
 <img src="https://github.com/user-attachments/assets/7995c007-1680-465a-a62a-4ed9004b94c3" height="40%" width="40%">    
 </p>
 
-Have all columns selected (so there values will arive in the model):
+Have all columns selected (so there values will arrive in the model):
 <p>
 <img src="https://github.com/user-attachments/assets/7d8d3623-90a4-4abb-9b49-9f56bb83673f" height="100%" width="100%">    
 </p>
