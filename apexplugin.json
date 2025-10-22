@@ -27,8 +27,8 @@
         "plugin" : {
           "internalName" : "LIB4X.AXT.APPLYTREEVIEW",
           "type" : "dynamic action",
-	  "demo" : "https://apex.oracle.com/pls/apex/r/yola/demo/product-tree-popup-lov?",
-	  "previewImage" : "https://github.com/kekema/apex-apply-tree-view/blob/main/apply-tree-view.jpg?raw=true"
+          "demo" : "https://apex.oracle.com/pls/apex/r/yola/demo/product-tree-popup-lov",
+          "previewImage" : "https://github.com/kekema/apex-apply-tree-view/blob/main/apply-tree-view.jpg?raw=true"
         }
       }
     }
